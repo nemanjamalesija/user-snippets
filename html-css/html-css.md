@@ -39,3 +39,13 @@
 		"description": "Create ul with class attribute"
 	},
 ```
+
+### List item
+
+```
+	"Create li with class attribute": {
+		"prefix": "licls",
+		"body": ["<li class=\"$1\">$2</li>"],
+		"description": "Create li with class attribute"
+	},
+```
