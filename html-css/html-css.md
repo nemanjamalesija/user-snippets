@@ -1,6 +1,6 @@
-# Create html element with class attribute attached to it
+# Create html elements with class attribute attached to it
 
-#### h1
+#### <h1>
 
 ```
 	"Create h1 with class attribute": {
