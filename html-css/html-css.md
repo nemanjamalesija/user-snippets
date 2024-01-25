@@ -29,3 +29,13 @@
 		"description": "Create h3 with class attribute"
 	},
 ```
+
+### Unordered list
+
+```
+"Create ul with class attribute": {
+		"prefix": "ulcls",
+		"body": ["<ul class=\"$1\">$2</ul>"],
+		"description": "Create ul with class attribute"
+	},
+```
