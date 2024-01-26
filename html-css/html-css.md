@@ -49,3 +49,13 @@
 		"description": "Create li with class attribute"
 	},
 ```
+
+### Span
+
+```
+	"Create span with class attribute": {
+		"prefix": "spancls",
+		"body": ["<span class=\"$1\">$2</span>"],
+		"description": "Create span with class attribute"
+	},
+```
