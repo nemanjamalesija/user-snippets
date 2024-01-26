@@ -10,6 +10,16 @@
 	},
 ```
 
+#### Heading
+
+```
+"Create p with class attribute": {
+		"prefix": "pcls",
+		"body": ["<p class=\"$1\">$2</p>"],
+		"description": "Create p with class attribute"
+	},
+```
+
 ### Div
 
 ```
