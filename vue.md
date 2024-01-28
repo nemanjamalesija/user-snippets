@@ -71,3 +71,16 @@
 		"description": "Create ref number with variable name"
 	},
 ```
+
+### Ref type number
+
+```
+	"Create ref boolean with variable name": {
+		"prefix": "refb",
+		"body": [
+			"const $1 = ref<boolean>($2)$0",
+		],
+		"description": "Create ref boolean with variable name"
+	},
+
+```
