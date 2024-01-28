@@ -33,4 +33,17 @@
 	],
 	"description": "Vue Single-File Component Template"
 },
+
+```
+
+### Add vue ref
+
+```
+"Create ref with variable name": {
+		"prefix": "reff",
+		"body": [
+			"const $1 = ref($2)$0",
+		],
+		"description": "Create ref with variable name"
+	},
 ```
