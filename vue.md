@@ -84,3 +84,17 @@
 	},
 
 ```
+
+### Computed
+
+```
+	"cpComputed": {
+		"prefix": "cp",
+		"body": [
+			"const $1 = computed(() => {",
+			"\t$2",
+			"});"
+		],
+		"description": "Create a computed property"
+	},
+```
