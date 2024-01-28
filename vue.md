@@ -36,7 +36,7 @@
 
 ```
 
-### Add vue ref
+### Ref
 
 ```
 "Create ref with variable name": {
@@ -45,5 +45,17 @@
 			"const $1 = ref($2)$0",
 		],
 		"description": "Create ref with variable name"
+	},
+```
+
+### Ref type string
+
+```
+	"Create ref string with variable name": {
+		"prefix": "refs",
+		"body": [
+			"const $1 = ref<string>($2)$0",
+		],
+		"description": "Create ref string with variable name"
 	},
 ```
