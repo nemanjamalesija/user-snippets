@@ -1,7 +1,7 @@
 ### Scafold vue functional component (script setup)
 
 ```
-"	Scafold vue functional component": {
+    Scafold vue functional component": {
 	"prefix": "sct",
 	"body": [
 		"<script setup lang=\"ts\"></script>",
