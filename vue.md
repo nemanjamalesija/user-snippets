@@ -59,3 +59,15 @@
 		"description": "Create ref string with variable name"
 	},
 ```
+
+### Ref type number
+
+```
+	"Create ref number with variable name": {
+		"prefix": "refn",
+		"body": [
+			"const $1 = ref<number>($2)$0",
+		],
+		"description": "Create ref number with variable name"
+	},
+```
