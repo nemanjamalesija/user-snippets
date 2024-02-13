@@ -14,19 +14,27 @@
 ### Scafold vue functional component (otpions api)
 
 ```
-	"Vue Single-File Component Template": {
-	"prefix": "scto",
+"Vue Single-File Component Template": {
+	"prefix": "sfo",
 	"body": [
 		"<template>",
-		"  ",
+		"   // ",
 		"</template>",
 		"<script>",
 		"export default {",
 		"  components: {},",
+		"  props: {},",
 		"  data() {",
 		"    return {};",
 		"  },",
 		"  computed: {",
+		"    // ",
+		"  },",
+		"  methods: {",
+		"    // ",
+		"  },",
+		"  mounted() {",
+		"    // ",
 		"  }",
 		"};",
 		"</script>"
